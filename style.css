@@ -1,0 +1,53 @@
+.index2{
+    display: grid;
+    gap: 20px;
+}
+
+.index3{
+    display: flex;
+    
+}
+@media screen(min-width:600px) and(max-width:1500){
+    .index3{
+        flex-wrap: wrap;
+    }
+}
+
+.index4{
+border: 1px solid lightblue;
+background-color: white;
+display: flex;
+width: 100%;
+}
+
+.index7{
+    display: flex;
+}
+
+
+.index8{
+    display: flex;
+}
+
+.index9{
+    display: flex;
+}
+
+
+.index10{
+    padding: 20px; 
+    margin: 20px;
+    background-color: gray;
+}
+
+
+.index11{
+    display:grid;
+    grid-template-columns: repeat(3,100px);
+}
+@media(max-width:500px){
+    .index11{
+        display:grid;
+        grid-template-columns: repeat(1,100px);
+    }
+}
